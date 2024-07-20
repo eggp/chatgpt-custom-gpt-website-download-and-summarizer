@@ -1,0 +1,14 @@
+{
+  "name": "compress-gpt",
+  "version": "1.0.0",
+  "description": "docker run -e WEBSITE_URL=\"https://angular.dev/\" -v $(pwd)/:/app web-compressor docker run -e WEBSITE_URL=\"https://www.typescriptlang.org/docs/handbook/intro.html\" -v $(pwd)/:/app web-compressor docker run -e WEBSITE_URL=\"https://sass-lang.com/documentation/\" -v $(pwd)/:/app web-compressor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.2.0"
+  }
+}
